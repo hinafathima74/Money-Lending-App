@@ -6,7 +6,7 @@ gem "rails", "~> 7.2.1", ">= 7.2.1.2"
 gem 'devise'               # For authentication
 gem 'sidekiq'              # For background jobs
 gem 'state_machine'        # For managing loan states
-gem 'redis', '~> 4.0'      # For Sidekiq to manage background jobs
+gem 'redis', '~> 5.3'      # For Sidekiq to manage background jobs
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
